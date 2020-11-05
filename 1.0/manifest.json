@@ -1,0 +1,11 @@
+{
+  "bundles": {
+    "Adimeo\\Notifications\\ANSBundle": ["all"]
+  },
+  "env": {
+    "MERCURE_PUBLISH_URL=http": "localhost:3000/.well-known/mercure",
+    "MERCURE_JWT_TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXJjdXJlIjp7InB1Ymxpc2giOltdfX0.Oo0yg7y4yMa1vr_bziltxuTCqb8JVHKxp-f_FwwOim0",
+    "MESSENGER_TRANSPORT_DSN_MAILER":"amqp://guest:guest@127.0.0.1:5672/%2f/mails",
+    "MESSENGER_TRANSPORT_DSN": "amqp://guest:guest@127.0.0.1:5672/%2f/default"
+  }
+}
